@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'OCRAEXT';
+    src: url(../fonts/OCRAEXT.TTF);
+}
+
+html{
+
+  font-family: sans-serif;
+  text-decoration: none;
+   
+}
+
+nav {
+  background-image: url("../images/Capturar5.jpg");
+  height: 180px;
+  width: 1200px;
+  text-decoration: none;
+  position: absolute;
+}
+
+nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.title {
+  letter-spacing: 0.5ch;
+  color:aliceblue;
+  font-size: 28px;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+  border: 5px solid #faf9f9;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+main{
+  position: absolute;
+  margin-top: 180px;
+}
+
+main h1{
+  font-family:'Handlee', cursive;
+  font-size: 48px;
+  font-weight: bold;
+  color:deeppink;
+  text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+ #first{
+  font-family:'Handlee', cursive;
+  font-size: 26px;
+  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  color: black;
+}
+
+#second{
+  font-family:'Handlee', cursive;
+  font-size: 26px;
+  letter-spacing:0.2px;
+}
+
+#fourth{
+  font-family:'Handlee', cursive;
+  font-size: 26px;
+}
+
+#fifth, #third{
+  font-family: 'OCRAEXT', sans-serif;
+  font-size: 23px;
+}
+
+#seventh{
+   font-family:'Handlee', cursive;
+  font-size: 26px;
+}
+
+#eighth{
+   font-family:'Handlee', cursive;
+  font-size: 26px;
+}
+
+div p em{
+  color:#0602d4;
+  font-size:larger;
+}
+
+#sixth{
+  font-family:'Handlee', cursive;
+  font-size: 26px;
+  letter-spacing: 0.2px; 
+}
+
+.fade_out{
+  font-size: 24px;
+}
+
+footer p small{
+  color:#f5f5f4;
+}
+
+footer{
+  position:absolute;
+  background-color: #0d0d0d;
+  height: 30%;
+  width: 1200px;
+  bottom: 0;
+  top:1850px;
+  left: 0px;
+  right:0px;
+}
+
+#first p em{
+  color:deeppink;
+  font-size:larger;
+}
+
+#sixth p b{
+  color:#fd0808;
+  font-size:larger;
+}
+.fade_out {
+   color:#2448ff;
+  font-size:smaller;
+}
+
+#video{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+}
+
+body h3{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  top: 50%;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+}
+
+#linda{
+  color:deeppink;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+#girl{
+  color:deeppink;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+#sad{
+   color:#1869ec;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+#amor{
+  color:#ef0b0b;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+#dourado{
+  color:#e0b20b;
+  font-size: 28px;
+  letter-spacing: 2px;
+   font-family:'Handlee', cursive;
+}
+
+#img{
+  display:flow-root;
+  position:absolute;
+  z-index:999;
+  top:0px;
+  right:0px;
+  left:30px;
+  bottom:20px;
+}
+
+body {
+   background-image: url('../images/garota_4.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed; 
+}
+/*Pseudo selector*/
+body::after {
+  content: ""; 
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5); /*Layer for white opacity */
+  background-size: cover;
+  z-index: -1;
+}
